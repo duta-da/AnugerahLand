@@ -1,0 +1,13 @@
+{
+  "name": "griya-asri-website",
+  "version": "1.0.0",
+  "description": "Website Corporate Griya Asri Development - Developer Perumahan",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "build:prod": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "short_name": "Griya Asri",
+  "name": "Griya Asri Development",
+  "description": "Developer Perumahan Terpercaya - Rumah Subsidi, Komersil, dan Kavling",
+  "icons": [
+    {
+      "src": "assets/images/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#0a0f0d",
+  "theme_color": "#16a34a",
+  "display": "standalone",
+  "orientation": "portrait"
+}

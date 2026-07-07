@@ -1,0 +1,66 @@
+name: Build Tailwind CSS & Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # =========================================
+  # JOB 1: BUILD (Tailwind CSS Production)
+  # =========================================
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: 📦 Install Dependencies
+        run: npm ci
+
+      - name: 🎨 Build Tailwind CSS (Production Minified)
+        run: npm run build:prod
+
+      - name: 📊 Report CSS Build Size
+        run: |
+          echo "=== CSS Build Report ==="
+          ls -lh assets/css/style.css
+          wc -c assets/css/style.css
+          echo "========================"
+
+      - name: ⚙️ Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📤 Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+  # =========================================
+  # JOB 2: DEPLOY to GitHub Pages
+  # =========================================
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

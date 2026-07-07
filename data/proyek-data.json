@@ -1,0 +1,284 @@
+{
+  "perusahaan": {
+    "nama": "Griya Asri Development",
+    "tagline": "Mewujudkan Hunian Impian Keluarga Indonesia",
+    "alamat": "Jl. Raya Properti No. 88, Kota Sejahtera, Jawa Barat 40123",
+    "telepon": "+6281234567890",
+    "whatsapp": "6281234567890",
+    "email": "info@griyaasri.co.id",
+    "website": "https://griyaasri.co.id",
+    "legalitas": {
+      "nib": "1234567890123",
+      "siup": "503/SIUP/2019/001",
+      "npp_btn": "BTN/NPP/2020/0045",
+      "npp_bsm": "BSM/NPP/2021/0032",
+      "sertifikasi_rei": "REI/JABAR/2019/0078"
+    },
+    "sosial_media": {
+      "instagram": "https://instagram.com/griyaasridev",
+      "facebook": "https://facebook.com/griyaasridev",
+      "youtube": "https://youtube.com/@griyaasridev",
+      "tiktok": "https://tiktok.com/@griyaasridev"
+    }
+  },
+  "proyek": [
+    {
+      "id": "subsidi-asri",
+      "slug": "proyek-subsidi-asri",
+      "nama": "Subsidi Asri Residence",
+      "tipe": "subsidi",
+      "tagline": "Hunian Subsidi Impian, Lokasi Strategis, Proses Mudah",
+      "deskripsi": "Subsidi Asri Residence hadir sebagai solusi hunian terjangkau bersubsidi pemerintah untuk keluarga muda Indonesia. Dilengkapi fasilitas lengkap dengan akses mudah ke pusat kota.",
+      "deskripsi_panjang": "Subsidi Asri Residence adalah perumahan bersubsidi pemerintah yang dirancang khusus untuk masyarakat berpenghasilan rendah (MBR) yang mendambakan rumah layak huni pertama mereka. Dengan skema KPR FLPP (Fasilitas Likuiditas Pembiayaan Perumahan) berbunga tetap hanya 5% per tahun, cicilan mulai dari Rp 900.000/bulan, rumah idaman Anda kini bukan lagi sekadar mimpi.",
+      "lokasi": "Jl. Subsidi Asri No. 1, Kec. Makmur, Kab. Sejahtera, Jawa Barat",
+      "koordinat": { "lat": -6.9175, "lng": 107.6191 },
+      "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.790!2d107.6191!3d-6.9175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTUnMDMuMCJTIDEwN8KwMzcnMDguOCJF!5e0!3m2!1sid!2sid!4v1609459200000!5m2!1sid!2sid",
+      "maps_link": "https://maps.google.com/?q=-6.9175,107.6191",
+      "gambar_utama": "assets/images/subsidi-asri-hero.webp",
+      "galeri": [
+        "assets/images/subsidi-asri-01.webp",
+        "assets/images/subsidi-asri-02.webp",
+        "assets/images/subsidi-asri-03.webp"
+      ],
+      "legalitas": {
+        "sertifikat": "SHM (Sertifikat Hak Milik)",
+        "imb": "IMB/PBG No. 640/IMB/2021/0123",
+        "shm_induk": "SHM No. 12345/Kel.Makmur",
+        "keterangan_bpn": "Terdaftar di BPN Kab. Sejahtera"
+      },
+      "tipe_rumah": [
+        {
+          "tipe": "Tipe 36/60",
+          "luas_bangunan": 36,
+          "luas_tanah": 60,
+          "kamar_tidur": 2,
+          "kamar_mandi": 1,
+          "lantai": 1,
+          "harga_dasar": 168000000,
+          "harga_display": "Rp 168.000.000",
+          "subsidi": true,
+          "bunga_kpr": 5,
+          "tenor_max": 20,
+          "cicilan_min": 900000
+        }
+      ],
+      "fasilitas_dalam": ["Musholla", "Taman Bermain Anak", "Gerbang One Gate System", "CCTV 24 Jam", "Saluran Drainase"],
+      "fasilitas_luar": ["SD Negeri (500m)", "Pasar Tradisional (1km)", "Puskesmas (800m)", "Masjid (300m)", "Minimarket (200m)", "Jalan Raya Utama (100m)"],
+      "total_unit": 120,
+      "unit_tersedia": 34,
+      "progress_pembangunan": 85,
+      "tahun_selesai": 2025,
+      "status": "aktif",
+      "bank_kpr": ["BTN", "BSI", "BRI"],
+      "siteplan": {
+        "svg_viewbox": "0 0 800 600",
+        "cluster": [
+          { "id": "A", "nama": "Cluster A", "warna": "#10B981", "x": 50, "y": 50, "lebar": 320, "tinggi": 230 },
+          { "id": "B", "nama": "Cluster B", "warna": "#3B82F6", "x": 430, "y": 50, "lebar": 320, "tinggi": 230 },
+          { "id": "C", "nama": "Cluster C", "warna": "#F59E0B", "x": 50, "y": 320, "lebar": 700, "tinggi": 230 }
+        ]
+      },
+      "kavling": [
+        { "id": "A01", "cluster": "A", "nomor": "A-01", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.A-001/Makmur", "x": 70, "y": 70, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "A02", "cluster": "A", "nomor": "A-02", "status": "booking", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.A-002/Makmur", "x": 150, "y": 70, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "A03", "cluster": "A", "nomor": "A-03", "status": "terjual", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.A-003/Makmur", "x": 230, "y": 70, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "A04", "cluster": "A", "nomor": "A-04", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.A-004/Makmur", "x": 70, "y": 170, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "A05", "cluster": "A", "nomor": "A-05", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.A-005/Makmur", "x": 150, "y": 170, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "A06", "cluster": "A", "nomor": "A-06", "status": "terjual", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.A-006/Makmur", "x": 230, "y": 170, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "B01", "cluster": "B", "nomor": "B-01", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.B-001/Makmur", "x": 450, "y": 70, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "B02", "cluster": "B", "nomor": "B-02", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.B-002/Makmur", "x": 530, "y": 70, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "B03", "cluster": "B", "nomor": "B-03", "status": "booking", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.B-003/Makmur", "x": 610, "y": 70, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "B04", "cluster": "B", "nomor": "B-04", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.B-004/Makmur", "x": 450, "y": 170, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "B05", "cluster": "B", "nomor": "B-05", "status": "terjual", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.B-005/Makmur", "x": 530, "y": 170, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "B06", "cluster": "B", "nomor": "B-06", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.B-006/Makmur", "x": 610, "y": 170, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C01", "cluster": "C", "nomor": "C-01", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-001/Makmur", "x": 70, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C02", "cluster": "C", "nomor": "C-02", "status": "terjual", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-002/Makmur", "x": 150, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C03", "cluster": "C", "nomor": "C-03", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-003/Makmur", "x": 230, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C04", "cluster": "C", "nomor": "C-04", "status": "booking", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-004/Makmur", "x": 310, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C05", "cluster": "C", "nomor": "C-05", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-005/Makmur", "x": 390, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C06", "cluster": "C", "nomor": "C-06", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-006/Makmur", "x": 470, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C07", "cluster": "C", "nomor": "C-07", "status": "terjual", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-007/Makmur", "x": 550, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 },
+        { "id": "C08", "cluster": "C", "nomor": "C-08", "status": "tersedia", "harga": 168000000, "lt": 60, "lb": 36, "dimensi": "6x10 m", "sertifikat": "SHM No.C-008/Makmur", "x": 630, "y": 340, "w": 70, "h": 90, "tipe_lantai": 1 }
+      ],
+      "biaya_tambahan": {
+        "bphtb_persen": 5,
+        "bphtb_njop_min": 60000000,
+        "bea_balik_nama": 0,
+        "biaya_akta_ajb": 2500000,
+        "biaya_notaris": 3000000,
+        "provisi_bank_persen": 1,
+        "biaya_appraisal": 500000,
+        "biaya_asuransi_jiwa_persen": 0.2,
+        "biaya_asuransi_kebakaran_persen": 0.1
+      },
+      "testimoni": [
+        { "nama": "Bapak Ahmad Fauzi", "pekerjaan": "Guru SD", "unit": "A-03", "bintang": 5, "komentar": "Alhamdulillah, proses pengajuan KPR-nya sangat mudah dibantu tim Griya Asri. Rumah pertama saya!", "foto": "assets/images/testimoni-01.webp" },
+        { "nama": "Ibu Sari Dewi", "pekerjaan": "Karyawan Swasta", "unit": "B-05", "bintang": 5, "komentar": "Cicilan hanya 900 ribu per bulan, kualitas bangunan memuaskan. Lokasi juga strategis dekat sekolah.", "foto": "assets/images/testimoni-02.webp" }
+      ]
+    },
+    {
+      "id": "komersil-elite",
+      "slug": "proyek-komersil-elite",
+      "nama": "Elite Business Park",
+      "tipe": "komersil",
+      "tagline": "Rumah Modern 2 Lantai untuk Gaya Hidup Urban Anda",
+      "deskripsi": "Elite Business Park menghadirkan hunian komersil 2 lantai eksklusif dengan desain kontemporer dan fasilitas premium di kawasan bisnis terkemuka.",
+      "deskripsi_panjang": "Elite Business Park adalah pilihan hunian komersil non-subsidi dengan desain arsitektur kontemporer yang sophisticated. Dibangun dengan material premium dan finishing high-end, setiap unit dirancang untuk memenuhi kebutuhan gaya hidup modern keluarga urban yang dinamis. Investasi terbaik dengan nilai apresiasi properti tertinggi di kawasannya.",
+      "lokasi": "Jl. Elite Boulevard No. 5, Kec. Urban, Kab. Sejahtera, Jawa Barat",
+      "koordinat": { "lat": -6.9000, "lng": 107.6300 },
+      "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.5!2d107.6300!3d-6.9000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTQnMDMuMCJTIDEwN8KwMzcnNDguMCJF!5e0!3m2!1sid!2sid!4v1609459200000!5m2!1sid!2sid",
+      "maps_link": "https://maps.google.com/?q=-6.9000,107.6300",
+      "gambar_utama": "assets/images/komersil-elite-hero.webp",
+      "galeri": [
+        "assets/images/komersil-elite-01.webp",
+        "assets/images/komersil-elite-02.webp",
+        "assets/images/komersil-elite-03.webp"
+      ],
+      "legalitas": {
+        "sertifikat": "SHM (Sertifikat Hak Milik)",
+        "imb": "IMB/PBG No. 640/IMB/2022/0456",
+        "shm_induk": "SHM No. 67890/Kel.Urban",
+        "keterangan_bpn": "Terdaftar di BPN Kab. Sejahtera"
+      },
+      "tipe_rumah": [
+        {
+          "tipe": "Tipe 70/90",
+          "luas_bangunan": 70,
+          "luas_tanah": 90,
+          "kamar_tidur": 3,
+          "kamar_mandi": 2,
+          "lantai": 2,
+          "harga_dasar": 650000000,
+          "harga_display": "Mulai Rp 650.000.000",
+          "subsidi": false,
+          "bunga_kpr": 9,
+          "tenor_max": 25,
+          "cicilan_min": 5800000
+        },
+        {
+          "tipe": "Tipe 100/120",
+          "luas_bangunan": 100,
+          "luas_tanah": 120,
+          "kamar_tidur": 4,
+          "kamar_mandi": 3,
+          "lantai": 2,
+          "harga_dasar": 950000000,
+          "harga_display": "Mulai Rp 950.000.000",
+          "subsidi": false,
+          "bunga_kpr": 9,
+          "tenor_max": 25,
+          "cicilan_min": 8500000
+        }
+      ],
+      "fasilitas_dalam": ["Kolam Renang", "Gym & Fitness Center", "Club House", "Taman Privat", "CCTV 24 Jam", "One Gate System", "Area Komersil Ground Floor", "Parkir Basement"],
+      "fasilitas_luar": ["Mall (1km)", "RS Swasta (500m)", "Sekolah Internasional (800m)", "Pusat Bisnis (500m)", "Stasiun Commuter (1.5km)", "Airport (20km)"],
+      "total_unit": 60,
+      "unit_tersedia": 18,
+      "progress_pembangunan": 70,
+      "tahun_selesai": 2026,
+      "status": "aktif",
+      "bank_kpr": ["BCA", "Mandiri", "BNI", "CIMB Niaga"],
+      "siteplan": {
+        "svg_viewbox": "0 0 800 600",
+        "cluster": [
+          { "id": "I", "nama": "Tower I", "warna": "#8B5CF6", "x": 50, "y": 50, "lebar": 330, "tinggi": 490 },
+          { "id": "II", "nama": "Tower II", "warna": "#EC4899", "x": 430, "y": 50, "lebar": 320, "tinggi": 490 }
+        ]
+      },
+      "kavling": [
+        { "id": "I01", "cluster": "I", "nomor": "I-01", "status": "tersedia", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-001/Urban", "x": 70, "y": 70, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I02", "cluster": "I", "nomor": "I-02", "status": "terjual", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-002/Urban", "x": 160, "y": 70, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I03", "cluster": "I", "nomor": "I-03", "status": "booking", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-003/Urban", "x": 250, "y": 70, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I04", "cluster": "I", "nomor": "I-04", "status": "tersedia", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-004/Urban", "x": 70, "y": 180, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I05", "cluster": "I", "nomor": "I-05", "status": "tersedia", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.I-005/Urban", "x": 160, "y": 180, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I06", "cluster": "I", "nomor": "I-06", "status": "tersedia", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.I-006/Urban", "x": 250, "y": 180, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I07", "cluster": "I", "nomor": "I-07", "status": "terjual", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.I-007/Urban", "x": 70, "y": 290, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I08", "cluster": "I", "nomor": "I-08", "status": "tersedia", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.I-008/Urban", "x": 160, "y": 290, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I09", "cluster": "I", "nomor": "I-09", "status": "booking", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-009/Urban", "x": 250, "y": 290, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I10", "cluster": "I", "nomor": "I-10", "status": "tersedia", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-010/Urban", "x": 70, "y": 400, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I11", "cluster": "I", "nomor": "I-11", "status": "terjual", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-011/Urban", "x": 160, "y": 400, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "I12", "cluster": "I", "nomor": "I-12", "status": "tersedia", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.I-012/Urban", "x": 250, "y": 400, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "II01", "cluster": "II", "nomor": "II-01", "status": "tersedia", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.II-001/Urban", "x": 450, "y": 70, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "II02", "cluster": "II", "nomor": "II-02", "status": "booking", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.II-002/Urban", "x": 540, "y": 70, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "II03", "cluster": "II", "nomor": "II-03", "status": "tersedia", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.II-003/Urban", "x": 630, "y": 70, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "II04", "cluster": "II", "nomor": "II-04", "status": "terjual", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.II-004/Urban", "x": 450, "y": 180, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "II05", "cluster": "II", "nomor": "II-05", "status": "tersedia", "harga": 950000000, "lt": 120, "lb": 100, "dimensi": "10x12 m", "sertifikat": "SHM No.II-005/Urban", "x": 540, "y": 180, "w": 80, "h": 100, "tipe_lantai": 2 },
+        { "id": "II06", "cluster": "II", "nomor": "II-06", "status": "tersedia", "harga": 650000000, "lt": 90, "lb": 70, "dimensi": "9x10 m", "sertifikat": "SHM No.II-006/Urban", "x": 630, "y": 180, "w": 80, "h": 100, "tipe_lantai": 2 }
+      ],
+      "biaya_tambahan": {
+        "bphtb_persen": 5,
+        "bphtb_njop_min": 60000000,
+        "bea_balik_nama": 2500000,
+        "biaya_akta_ajb": 5000000,
+        "biaya_notaris": 7500000,
+        "provisi_bank_persen": 1,
+        "biaya_appraisal": 1000000,
+        "biaya_asuransi_jiwa_persen": 0.25,
+        "biaya_asuransi_kebakaran_persen": 0.15
+      },
+      "testimoni": [
+        { "nama": "Bapak Rizky Pratama", "pekerjaan": "Pengusaha", "unit": "I-02", "bintang": 5, "komentar": "Investasi terbaik yang pernah saya buat. Nilai properti naik 30% dalam 2 tahun. Fasilitas premium, lokasi strategis!", "foto": "assets/images/testimoni-03.webp" },
+        { "nama": "Ibu Melani Susanto", "pekerjaan": "Dokter Spesialis", "unit": "II-04", "bintang": 5, "komentar": "Desain arsitektur yang indah, material premium, dan tim sales yang sangat profesional. Sangat puas!", "foto": "assets/images/testimoni-04.webp" }
+      ]
+    },
+    {
+      "id": "kavling-premium",
+      "slug": "proyek-kavling-premium",
+      "nama": "Kavling Premium Valley",
+      "tipe": "kavling",
+      "tagline": "Tanah Kavling Strategis, Investasi Nilai Tinggi",
+      "deskripsi": "Kavling Premium Valley menawarkan tanah kavling siap bangun di lokasi premium dengan kontur alam yang indah dan infrastruktur lengkap.",
+      "deskripsi_panjang": "Kavling Premium Valley menghadirkan peluang investasi tanah kavling terbaik di kawasan berkembang pesat. Dengan legalitas SHM penuh, infrastruktur jalan beton, drainase, listrik, dan air PDAM yang telah siap, Anda tinggal membangun impian Anda sesuai selera dan kebutuhan tanpa batasan desain.",
+      "lokasi": "Jl. Valley Premium, Kec. Hijau, Kab. Sejahtera, Jawa Barat",
+      "koordinat": { "lat": -6.9300, "lng": 107.6050 },
+      "maps_link": "https://maps.google.com/?q=-6.9300,107.6050",
+      "gambar_utama": "assets/images/kavling-hero.webp",
+      "galeri": ["assets/images/kavling-01.webp", "assets/images/kavling-02.webp"],
+      "legalitas": {
+        "sertifikat": "SHM (Sertifikat Hak Milik)",
+        "imb": "IPT/PL No. 593/IPT/2022/0089",
+        "shm_induk": "SHM No. 99001/Kel.Hijau",
+        "keterangan_bpn": "Terdaftar di BPN Kab. Sejahtera"
+      },
+      "tipe_rumah": [
+        { "tipe": "Kavling Type S", "luas_bangunan": 0, "luas_tanah": 90, "kamar_tidur": 0, "kamar_mandi": 0, "lantai": 0, "harga_dasar": 350000000, "harga_display": "Mulai Rp 350.000.000", "subsidi": false, "bunga_kpr": 0, "tenor_max": 0, "cicilan_min": 0 },
+        { "tipe": "Kavling Type M", "luas_bangunan": 0, "luas_tanah": 120, "kamar_tidur": 0, "kamar_mandi": 0, "lantai": 0, "harga_dasar": 480000000, "harga_display": "Mulai Rp 480.000.000", "subsidi": false, "bunga_kpr": 0, "tenor_max": 0, "cicilan_min": 0 },
+        { "tipe": "Kavling Type L", "luas_bangunan": 0, "luas_tanah": 200, "kamar_tidur": 0, "kamar_mandi": 0, "lantai": 0, "harga_dasar": 800000000, "harga_display": "Mulai Rp 800.000.000", "subsidi": false, "bunga_kpr": 0, "tenor_max": 0, "cicilan_min": 0 }
+      ],
+      "fasilitas_dalam": ["Jalan Beton 6m", "Drainase Permanen", "Jaringan Listrik PLN", "Air PDAM", "PJU (Penerangan Jalan)", "Pos Keamanan"],
+      "fasilitas_luar": ["Jalan Raya Provinsi (500m)", "Sungai & Taman Alam (100m)", "Akses Tol (5km)", "Pusat Kota (8km)"],
+      "total_unit": 50,
+      "unit_tersedia": 28,
+      "progress_pembangunan": 100,
+      "status": "aktif",
+      "bank_kpr": ["BTN", "Mandiri", "BCA"],
+      "kavling": [
+        { "id": "K01", "cluster": "K", "nomor": "K-01", "status": "tersedia", "harga": 350000000, "lt": 90, "lb": 0, "dimensi": "9x10 m", "sertifikat": "SHM No.K-001/Hijau", "x": 50, "y": 70, "w": 80, "h": 80, "tipe_lantai": 0 },
+        { "id": "K02", "cluster": "K", "nomor": "K-02", "status": "terjual", "harga": 350000000, "lt": 90, "lb": 0, "dimensi": "9x10 m", "sertifikat": "SHM No.K-002/Hijau", "x": 140, "y": 70, "w": 80, "h": 80, "tipe_lantai": 0 },
+        { "id": "K03", "cluster": "K", "nomor": "K-03", "status": "tersedia", "harga": 480000000, "lt": 120, "lb": 0, "dimensi": "10x12 m", "sertifikat": "SHM No.K-003/Hijau", "x": 230, "y": 70, "w": 80, "h": 80, "tipe_lantai": 0 },
+        { "id": "K04", "cluster": "K", "nomor": "K-04", "status": "booking", "harga": 480000000, "lt": 120, "lb": 0, "dimensi": "10x12 m", "sertifikat": "SHM No.K-004/Hijau", "x": 320, "y": 70, "w": 80, "h": 80, "tipe_lantai": 0 },
+        { "id": "K05", "cluster": "K", "nomor": "K-05", "status": "tersedia", "harga": 800000000, "lt": 200, "lb": 0, "dimensi": "10x20 m", "sertifikat": "SHM No.K-005/Hijau", "x": 410, "y": 70, "w": 130, "h": 80, "tipe_lantai": 0 }
+      ],
+      "biaya_tambahan": {
+        "bphtb_persen": 5,
+        "bphtb_njop_min": 60000000,
+        "bea_balik_nama": 2000000,
+        "biaya_akta_ajb": 3500000,
+        "biaya_notaris": 5000000,
+        "provisi_bank_persen": 1,
+        "biaya_appraisal": 750000,
+        "biaya_asuransi_jiwa_persen": 0,
+        "biaya_asuransi_kebakaran_persen": 0
+      },
+      "testimoni": [
+        { "nama": "Bapak Hendra Wijaya", "pekerjaan": "Direktur Perusahaan", "unit": "K-02", "bintang": 5, "komentar": "Kavling dengan view alam terbaik! Proses sertifikat SHM sangat cepat dan transparan. Sangat direkomendasikan.", "foto": "assets/images/testimoni-05.webp" }
+      ]
+    }
+  ],
+  "portfolio_selesai": [
+    { "nama": "Griya Sejahtera 1", "tahun": 2020, "total_unit": 80, "tipe": "subsidi", "sold_out": true, "gambar": "assets/images/portfolio-01.webp" },
+    { "nama": "Griya Sejahtera 2", "tahun": 2021, "total_unit": 100, "tipe": "subsidi", "sold_out": true, "gambar": "assets/images/portfolio-02.webp" },
+    { "nama": "Residence Makmur", "tahun": 2022, "total_unit": 45, "tipe": "komersil", "sold_out": true, "gambar": "assets/images/portfolio-03.webp" },
+    { "nama": "Kavling Indah Permai", "tahun": 2023, "total_unit": 30, "tipe": "kavling", "sold_out": true, "gambar": "assets/images/portfolio-04.webp" }
+  ]
+}
